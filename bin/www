@@ -15,7 +15,6 @@ var http = require('http');
  */
 require("../db/database")
 
-
 /**
  * Get port from environment and store in Express.
  */
