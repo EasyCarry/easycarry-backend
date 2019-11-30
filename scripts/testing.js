@@ -7,5 +7,3 @@ var products = connection.db.collection("products");
 
 console.log(products.findOne())
 
-
-
