@@ -6,3 +6,4 @@ var connection = mongoose.connection
 var products = connection.db.collection("products");
 
 console.log(products.findOne())
+
