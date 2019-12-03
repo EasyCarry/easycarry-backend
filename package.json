@@ -6,11 +6,12 @@
     "start": "cross-env DEBUG=easycarry-bakend:* nodemon ./bin/www"
   },
   "dependencies": {
+    "bcrypt": "^3.0.7",
     "cookie-parser": "~1.4.4",
     "cross-env": "^6.0.3",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "mongoose": "^5.7.12",
+    "mongoose": "^5.7.13",
     "nodemon": "^2.0.1",
     "twilio": "^3.37.1"
   }
