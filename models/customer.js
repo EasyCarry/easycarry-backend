@@ -1,5 +1,4 @@
 var mongoose = require('mongoose');
-// var timestamps = require('mongoose-timestamp');
 
 var Schema = mongoose.Schema;
 
@@ -29,6 +28,5 @@ var customerSchema = new Schema({
 }, {timestamps : true});
 
 
-customerSchema.plugin(passwordEncryptor);
 
 module.exports = mongoose.model('Customer', customerSchema);
